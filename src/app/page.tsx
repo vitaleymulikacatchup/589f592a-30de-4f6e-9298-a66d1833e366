@@ -1,4 +1,4 @@
-use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -142,8 +142,7 @@ export default function Page() {
           <SocialProofOne
             title="Trusted by Industry Leaders"
             description="Our partners trust us to deliver high-quality services."
-            logos={[
-              assetMap.find(a => a.id === "partners-logo-1")?.url ?? "/public/images/placeholder.webp",
+            logos={[assetMap.find(a => a.id === "partners-logo-1")?.url ?? "/public/images/placeholder.webp",
               assetMap.find(a => a.id === "partners-logo-2")?.url ?? "/public/images/placeholder.webp",
               assetMap.find(a => a.id === "partners-logo-3")?.url ?? "/public/images/placeholder.webp",
               assetMap.find(a => a.id === "partners-logo-4")?.url ?? "/public/images/placeholder.webp",
